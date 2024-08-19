@@ -2688,6 +2688,10 @@ input, select, textarea {
 			object-position: 50% 35% !important;
 		}
 
+		.image.image-middle img {
+			object-position: 50% 65% !important;
+		}
+
 /* List */
 
 	ol {
