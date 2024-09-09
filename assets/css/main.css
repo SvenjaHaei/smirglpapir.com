@@ -6391,6 +6391,7 @@ input, select, textarea {
 
 		.gallery.style1 a {
 			color: #ffffff;
+			margin: 1px;
 		}
 
 			.gallery.style1 a:hover {
