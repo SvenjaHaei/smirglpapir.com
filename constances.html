@@ -19,11 +19,16 @@
 					<section class="wrapper style1 align-left">
 						<div class="inner">
 							<h2 class="align-left">Constances</h2>
-							<p> These multi-functional pieces are perfect for organizing jewelry, displaying candles, or holding soaps. Each holder is crafted with care, combining minimalist design with durable material to bring a touch of modern sophistication to the space.</p>
+							<p class="subsections"> These multi-functional pieces are perfect for organizing jewelry, displaying candles, or holding soaps. Each holder is crafted with care, combining minimalist design with durable material to bring a touch of modern sophistication to the space.</p>
 						</div>
 
-						<!-- Gallery -->
-							<div id="pictures" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+						<!-- Gallery Trays-->
+						<h3 class="inner">Trays</h3>
+						<div id="trays" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Vases-->
+						<h3 class="inner">Vases & Flower Pots</h3>
+						<div id="vases" class="gallery style2 medium lightbox onscroll-fade-in"></div>
 
 					</section>
 
@@ -48,11 +53,19 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script>
-				let articles = "";
-				for (let i=1; i<=16; i++) {
-					articles += '<article> <a href="images/gallery/constances/' + i + '.jpeg" class="image"> <img src="images/gallery/constances/' + i + '.jpeg" alt="" /></a></article>';
+				let trays = "";
+				let vases = "";
+				
+				for (let i=1; i<=7; i++) {
+					trays += '<article> <a href="images/gallery/constances/trays/' + i + '.jpeg" class="image"> <img src="images/gallery/constances/trays/' + i + '.jpeg" alt="" /></a></article>';
 				}
-				document.getElementById("pictures").innerHTML = articles;
+				
+				for (let j=1; j<=2; j++) {
+					vases += '<article> <a href="images/gallery/constances/vases/' + j + '.jpeg" class="image"> <img src="images/gallery/constances/vases/' + j + '.jpeg" alt="" /></a></article>';
+				}
+
+				document.getElementById("trays").innerHTML = trays;
+				document.getElementById("vases").innerHTML = vases;
 			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>

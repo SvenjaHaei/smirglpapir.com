@@ -191,6 +191,10 @@ input, select, textarea {
 			font-size: 1.25rem;
 		}
 
+		p.subsections {
+			margin: 0 0 0 0;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.375;
@@ -3654,7 +3658,7 @@ input, select, textarea {
 /* Banner (style2) */
 
 	.banner.style2 {
-		padding: 5.25rem 5.25rem 3.25rem 5.25rem ;
+		padding: 1rem 2rem 0rem 3rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3719,52 +3723,16 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
-		@media screen and (max-width: 1680px) {
-
-			.banner.style2 {
-				padding: 0rem 3.75rem 0rem 3.75rem ;
-			}
-
-				.banner.style2 .content {
-					padding: 3.75rem 3.75rem 1.75rem 3.75rem ;
-				}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.banner.style2 {
-				padding: 4rem 3rem 2rem 3rem ;
-			}
-
-				.banner.style2 .content {
-					padding: 4rem 3rem 2rem 3rem ;
-				}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.banner.style2 {
-				padding: 3rem 3rem 1rem 3rem ;
-			}
-
-				.banner.style2 .content {
-					padding: 3.75rem 2.25rem 1.75rem 2.25rem ;
-				}
-
-		}
-
 		@media screen and (max-width: 736px) {
-
-			.banner.style2 {
-				padding: 2rem 2rem 0.1rem 2rem ;
+			.banner.style2 img {
+				position: relative !important;
+				width: 100% !important;
+				height: auto !important;
+				max-width: 90vw;
+				left: auto !important;
+				top: auto !important;
+				border-radius: 0 !important;
 			}
-
-				.banner.style2 .content {
-					padding: 2.5rem 1.5rem 0.5rem 1.5rem ;
-				}
-
 		}
 
 		.banner.style2.fullscreen {
