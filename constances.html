@@ -23,12 +23,16 @@
 						</div>
 
 						<!-- Gallery Trays-->
-						<h3 class="inner">Trays</h3>
+						<h3 class="inner">Trays & Bowls</h3>
 						<div id="trays" class="gallery style2 medium lightbox onscroll-fade-in"></div>
 
 						<!-- Gallery Vases-->
 						<h3 class="inner">Vases & Flower Pots</h3>
 						<div id="vases" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery WineStopper-->
+						<h3 class="inner">Wine Stopper</h3>
+						<div id="wineStopper" class="gallery style2 medium lightbox onscroll-fade-in"></div>
 
 					</section>
 
@@ -55,17 +59,23 @@
 			<script>
 				let trays = "";
 				let vases = "";
+				let wineStopper = "";
 				
-				for (let i=1; i<=7; i++) {
+				for (let i=1; i<=10; i++) {
 					trays += '<article> <a href="images/gallery/constances/trays/' + i + '.jpeg" class="image"> <img src="images/gallery/constances/trays/' + i + '.jpeg" alt="" /></a></article>';
 				}
 				
-				for (let j=1; j<=2; j++) {
+				for (let j=1; j<=4; j++) {
 					vases += '<article> <a href="images/gallery/constances/vases/' + j + '.jpeg" class="image"> <img src="images/gallery/constances/vases/' + j + '.jpeg" alt="" /></a></article>';
+				}
+
+				for (let j=1; j<=4; j++) {
+					wineStopper += '<article> <a href="images/gallery/constances/wineStopper/' + j + '.jpeg" class="image"> <img src="images/gallery/constances/wineStopper/' + j + '.jpeg" alt="" /></a></article>';
 				}
 
 				document.getElementById("trays").innerHTML = trays;
 				document.getElementById("vases").innerHTML = vases;
+				document.getElementById("wineStopper").innerHTML = wineStopper;
 			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>

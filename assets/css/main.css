@@ -6932,6 +6932,17 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			.gallery.style2 article .image img {
+				height: 100% !important;
+				width: auto !important;
+				object-fit: contain !important;
+				object-position: center !important;
+				max-width: 90vw;
+				max-height: 60vw;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
 
 			.gallery.style2 article .caption {
 				padding: 2rem;
