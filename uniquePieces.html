@@ -22,8 +22,21 @@
 							<p> Love. Lorem Ipsum. </p>
 						</div>
 
-						<!-- Gallery -->
-							<div id="pictures" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+						<!-- Gallery Chester-->
+						<h3 class="inner">Chester</h3>
+						<div id="chester" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Vincent-->
+						<h3 class="inner">Vincent</h3>
+						<div id="vincent" class="gallery style1 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Barney-->
+						<h3 class="inner">Barney</h3>
+						<div id="barney" class="gallery style1 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Hygge-->
+						<h3 class="inner">Hygge</h3>
+						<div id="hygge" class="gallery style2 medium lightbox onscroll-fade-in"></div>
 
 					</section>
 
@@ -48,11 +61,29 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script>
-				let articles = "";
-				for (let i=1; i<=8; i++) {
-					articles += '<article> <a href="images/gallery/uniquePieces/' + i + '.jpg" class="image"> <img src="images/gallery/uniquePieces/' + i + '.jpg" alt="" /></a></article>';
+				let barney = "";
+				for (let i=1; i<=2; i++) {
+					barney += '<article> <a href="images/gallery/uniquePieces/barney/' + i + '.jpg" class="image"> <img src="images/gallery/uniquePieces/barney/' + i + '.jpg" alt="" /></a></article>';
 				}
-				document.getElementById("pictures").innerHTML = articles;
+				document.getElementById("barney").innerHTML = barney;
+
+				let chester = "";
+				for (let i=1; i<=5; i++) {
+					chester += '<article> <a href="images/gallery/uniquePieces/chester/' + i + '.jpg" class="image"> <img src="images/gallery/uniquePieces/chester/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("chester").innerHTML = chester;
+
+				let hygge = "";
+				for (let i=1; i<=5; i++) {
+					hygge += '<article> <a href="images/gallery/uniquePieces/hygge/' + i + '.jpg" class="image"> <img src="images/gallery/uniquePieces/hygge/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("hygge").innerHTML = hygge;
+
+				let vincent = "";
+				for (let i=1; i<=2; i++) {
+					vincent += '<article> <a href="images/gallery/uniquePieces/vincent/' + i + '.jpg" class="image"> <img src="images/gallery/uniquePieces/vincent/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("vincent").innerHTML = vincent;
 			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
