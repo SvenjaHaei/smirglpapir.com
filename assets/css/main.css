@@ -3790,7 +3790,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.gallery.style1 article {
-				width: 100%;
+				width: 50%;
 			}
 
 				.gallery.style1 article .caption {

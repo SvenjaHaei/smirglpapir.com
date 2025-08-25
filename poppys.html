@@ -22,8 +22,17 @@
 							<p> Pop it. Lorem Ipsum. </p>
 						</div>
 
-						<!-- Gallery --> 
-							<div id="pictures" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+						<!-- Gallery Vases--> 
+						<h3 class="inner">Vases</h3>
+						<div id="vases" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Plates--> 
+						<h3 class="inner">Plates</h3>
+						<div id="trays" class="gallery style1 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Candle Holders--> 
+						<h3 class="inner">Candle Holders</h3>
+						<div id="candleHolders" class="gallery style1 medium lightbox onscroll-fade-in"></div>
 
 					</section>
 
@@ -48,11 +57,23 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script>
-				let articles = "";
-				for (let i=1; i<=8; i++) {
-					articles += '<article> <a href="images/gallery/poppys/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/' + i + '.jpg" alt="" /></a></article>';
+				let vases = "";
+				for (let i=1; i<=4; i++) {
+					vases += '<article> <a href="images/gallery/poppys/vases/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/vases/' + i + '.jpg" alt="" /></a></article>';
 				}
-				document.getElementById("pictures").innerHTML = articles;
+				document.getElementById("vases").innerHTML = vases;
+
+				let trays = "";
+				for (let i=1; i<=2; i++) {
+					trays += '<article> <a href="images/gallery/poppys/trays/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/trays/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("trays").innerHTML = trays;
+
+				let candleHolders = "";
+				for (let i=1; i<=2; i++) {
+					candleHolders += '<article> <a href="images/gallery/poppys/candleHolders/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/candleHolders/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("candleHolders").innerHTML = candleHolders;
 			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
