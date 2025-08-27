@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Brightons</title>
+		<title>Ferns</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -17,13 +17,18 @@
 
 				<!-- One -->
 					<section class="wrapper style1 align-left">
-						<div class="inner">
-							<h2 class="align-left">Brightons</h2>
-							<p>The Brightons are all about charm with a twist – nostalgic yet unexpectedly modern. Delicate teacups, once sipped from, are reborn as colorful candles, each one glowing with its own personality. Paired with pastel-hued matchboxes featuring contemporary beadwork designs, this collection flips the familiar upside down. Old and new meet here in a playful, cozy harmony that makes lighting a candle feel like an occasion.</p>
+						<div class="inner" style="padding: 5rem 2.5rem 0 2.5rem;">
+							<h2 class="align-left">Ferns</h2>
+							<p class="subsections">Earthy, subtle, and just a little wild – the Ferns are designed for boho homes with soul. Building on the minimalism of the Constances, this collection adds layers of green, brown, and warm natural tones. Think cut glass bottles reimagined with cement, trays dotted with green shards, and bowls lined with soft textiles. Every piece feels grounded yet welcoming, a quiet companion that brings warmth into everyday spaces.</p>
 						</div>
 
-						<!-- Gallery -->
-						<div id="pictures" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+						<!-- Gallery Vases-->
+						<h3 class="inner">Vases</h3>
+						<div id="vases" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Trays-->
+						<h3 class="inner">Trays & Bowls</h3>
+						<div id="trays" class="gallery style2 medium lightbox onscroll-fade-in"></div>
 
 					</section>
 
@@ -32,7 +37,7 @@
 						<div class="inner">
 							<ul class="icons">
 								<li><a href="https://www.instagram.com/smirglpapir.crafts/" target='_blank' class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://smirglpapir.etsy.com" target='_blank' class="icon brands style2 fa-etsy"><span class="label">Etsy</span></a></li>								
+								<li><a href="https://smirglpapir.etsy.com" target='_blank' class="icon brands style2 fa-etsy"><span class="label">Etsy</span></a></li>
 								<li><a href="mailto:info@smirglpapir.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 							<p>&copy; SMIRGLPAPIR</p>
@@ -48,11 +53,17 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script>
-				let articles = "";
-				for (let i=1; i<=10; i++) {
-					articles += '<article> <a href="images/gallery/brightons/' + i + '.jpg" class="image"> <img src="images/gallery/brightons/' + i + '.jpg" alt="" /></a></article>';
+				let vases = "";
+				for (let i=1; i<=9; i++) {
+					vases += '<article> <a href="images/gallery/ferns/vases/' + i + '.jpg" class="image"> <img src="images/gallery/ferns/vases/' + i + '.jpg" alt="" /></a></article>';
 				}
-				document.getElementById("pictures").innerHTML = articles;
+				document.getElementById("vases").innerHTML = vases;
+
+				let trays = "";
+				for (let i=1; i<=5; i++) {
+					trays += '<article> <a href="images/gallery/ferns/trays/' + i + '.jpg" class="image"> <img src="images/gallery/ferns/trays/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("trays").innerHTML = trays;
 			</script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Poppys</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/png" href="images/icon.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+        <a href="index.html" style="padding: 25px; display:inline-block; position:absolute; top:0px; right:0px; text-decoration:none">HOME</a>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="wrapper style1 align-left">
+						<div class="inner" style="padding: 5rem 2.5rem 0 2.5rem;">
+							<h2 class="align-left">Poppys</h2>
+							<p class="subsections">As the name suggests, the Poppys pop with color, joy, and a playful spirit. Pastel shades of rose and soft teal dance across glass vases, candle holders, and jars. Each piece is full of surprises – like a jar with a rosy lid topped by a cheerful little orangutan, ready to make you smile every time you reach for it. Bold yet soft, this collection celebrates the fun side of design, perfect for brightening up your favorite corners.</p>
+						</div>
+
+						<!-- Gallery Vases--> 
+						<h3 class="inner">Vases</h3>
+						<div id="vases" class="gallery style2 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Plates--> 
+						<h3 class="inner">Plates</h3>
+						<div id="trays" class="gallery style1 medium lightbox onscroll-fade-in"></div>
+
+						<!-- Gallery Candle Holders--> 
+						<h3 class="inner">Candle Holders</h3>
+						<div id="candleHolders" class="gallery style1 medium lightbox onscroll-fade-in"></div>
+
+					</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.instagram.com/smirglpapir.crafts/" target='_blank' class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://smirglpapir.etsy.com" target='_blank' class="icon brands style2 fa-etsy"><span class="label">Etsy</span></a></li>
+								<li><a href="mailto:info@smirglpapir.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; SMIRGLPAPIR</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script>
+				let vases = "";
+				for (let i=1; i<=4; i++) {
+					vases += '<article> <a href="images/gallery/poppys/vases/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/vases/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("vases").innerHTML = vases;
+
+				let trays = "";
+				for (let i=1; i<=2; i++) {
+					trays += '<article> <a href="images/gallery/poppys/trays/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/trays/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("trays").innerHTML = trays;
+
+				let candleHolders = "";
+				for (let i=1; i<=2; i++) {
+					candleHolders += '<article> <a href="images/gallery/poppys/candleHolders/' + i + '.jpg" class="image"> <img src="images/gallery/poppys/candleHolders/' + i + '.jpg" alt="" /></a></article>';
+				}
+				document.getElementById("candleHolders").innerHTML = candleHolders;
+			</script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
