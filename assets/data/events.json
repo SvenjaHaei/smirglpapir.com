@@ -1,0 +1,44 @@
+[
+  {
+    "id": "evt-2026-07-10-workshop-raysin",
+    "date": "2026-07-10",
+    "title": "Workshop: Cast with Raysin - Choose a Mold, Create a Unique Piece",
+    "type": "Workshop",
+    "city": "Prague",
+    "venue": "Full Spectrum Workshop",
+    "startTime": "16:00",
+    "endTime": "18:30",
+    "description": "A creative hands-on workshop where you cast with Raysin and create your own unique piece.",
+    "price": "850 CZK",
+    "capacity": "8 participants",
+    "registrationUrl": "https://www.fullspectrumworkshop.com/cast-with-raysin---choose-a-mold-create-a-unique-piece/"
+  },
+  {
+    "id": "evt-2026-08-15-zenden-pop-up",
+    "date": "2026-08-15",
+    "title": "Zenden Pop-up",
+    "type": "Pop-up",
+    "city": "Prague",
+    "venue": "Zen Den Yoga Prague",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "description": "Meet the makers behind Znova Kolektiv and smirglpapir, explore our handcrafted products and enjoy simple, creative workshops before or after your flow at Zen Den Yoga.",
+    "price": "Free entry",
+    "capacity": "Public event",
+    "registrationUrl": "No registration needed"
+  },
+  {
+    "id": "evt-2026-09-12-mint-market",
+    "date": "2026-09-12",
+    "title": "Zažit Americkou Jinak 2026",
+    "type": "Market",
+    "city": "Prague",
+    "venue": "Americka + Zahrebska",
+    "startTime": "10:30",
+    "endTime": "21:30",
+    "description": "Street festival with concerts, workshops, dance, food, cocktails, nonprofit presentations, and local designers in Americka and Zahrebska. I will be there selling my handmade products.",
+    "price": "Free entry",
+    "capacity": "Public event",
+    "registrationUrl": "https://www.mintmarket.cz/cs/trh/zazit-americkou-jinak-2026"
+  }
+]

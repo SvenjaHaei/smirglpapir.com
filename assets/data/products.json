@@ -1,0 +1,126 @@
+[
+  {
+    "sku": "VASE-001",
+    "name": "Fern Vase",
+    "description": "A bottle vase reimagined with cement, earthy tones, and a calm, minimal feel.",
+    "price": 400,
+    "stock": 1,
+    "galleryPath": "/images/Shop/GreenVase",
+    "images": [
+      "1.jpeg",
+      "2.jpeg"
+    ]
+  },
+  {
+    "sku": "TRAY-001",
+    "name": "Lemony",
+    "description": "A cement bowl with a playful lemon imprint, made to add character to your table.",
+    "price": 350,
+    "stock": 4,
+    "galleryPath": "/images/Shop/LemonBowl",
+    "images": [
+      "1.jpeg",
+      "2.jpeg",
+      "3.jpeg",
+      "4.jpeg"
+    ]
+  },
+  {
+    "sku": "VASE-002",
+    "name": "Vase in Contrast",
+    "description": "Glass vase contrasting cement with soft pink tones for a delicate and elegant look.",
+    "price": 400,
+    "stock": 2,
+    "galleryPath": "/images/Shop/PinkVases",
+    "images": [
+      "1.jpeg",
+      "2.jpeg"
+    ]
+  },
+  {
+    "sku": "MAGNET-001",
+    "name": "Magnet Set Vivid",
+    "description": "A handmade magnet set for notes, photos, and small everyday reminders.",
+    "price": 150,
+    "stock": 3,
+    "galleryPath": "/images/Shop/Magnets1",
+    "images": [
+      "1.jpeg",
+      "2.jpeg"
+    ],
+    "variants": [
+      { "id": "rectangular", "label": "Purple - Rectangular", "stock": 1 },
+      { "id": "oval", "label": "Purple - Oval", "stock": 1 },
+      { "id": "diamond", "label": "Purple - Diamond", "stock": 1 }
+    ]
+  },
+  {
+    "sku": "MAGNET-002",
+    "name": "Magnet Set Pastel",
+    "description": "A magnet set in a softer palette, simple, practical, and quietly playful.",
+    "price": 150,
+    "stock": 3,
+    "galleryPath": "/images/Shop/Magnets2",
+    "images": [
+      "1.jpeg",
+      "2.jpeg"
+    ],
+    "variants": [
+      { "id": "heart", "label": "Rose - Heart", "stock": 1 },
+      { "id": "oval", "label": "Rose - Oval", "stock": 1 },
+      { "id": "diamond", "label": "Rose - Diamond", "stock": 1 }
+    ]
+  },
+  {
+    "sku": "TRAY-002",
+    "name": "Home of the Rings",
+    "description": "A small tray for rings and tiny treasures, minimal in shape and easy to style.",
+    "price": 300,
+    "stock": 2,
+    "galleryPath": "/images/Shop/RingTray",
+    "images": [
+      "1.jpeg",
+      "2.jpeg",
+      "3.jpeg"
+    ]
+  },
+  {
+    "sku": "STOPPER-001",
+    "name": "Devine Stopper",
+    "description": "A cork and cement wine stopper with a playful top, practical and fun at once.",
+    "price": 200,
+    "stock": 6,
+    "galleryPath": "/images/Shop/WineStopper",
+    "images": [
+      "2.jpeg",
+      "1.jpeg"
+    ],
+    "variants": [
+      { "id": "green", "label": "Green", "stock": 2 },
+      { "id": "pink", "label": "Pink", "stock": 1 },
+      { "id": "blue", "label": "Blue", "stock": 1 },
+      { "id": "purple", "label": "Purple", "stock": 1 },
+      { "id": "soft-purple", "label": "Soft Purple", "stock": 1 }
+    ]
+  },
+  {
+    "sku": "CANDLE-001",
+    "name": "Warm Tea",
+    "description": "A handmade candle poured into vintage teacups for warm evenings and cozy corners.",
+    "price": 250,
+    "stock": 4,
+    "galleryPath": "/images/Shop/Candle",
+    "images": [
+      "1.jpg",
+      "2.jpg"
+    ],
+    "variants": [
+      { "id": "purple", "label": "Purple", "stock": 1 },
+      { "id": "soft-blue", "label": "Soft Blue", "stock": 1 },
+      { "id": "coffee", "label": "Coffee", "stock": 1 },
+      { "id": "latte", "label": "Latte", "stock": 1 },
+      { "id": "pink", "label": "Pink", "stock": 0 },
+      { "id": "green", "label": "Green", "stock": 0 }
+    ]
+  }
+]

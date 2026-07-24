@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Checkout | SMIRGLPAPIR</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css?v=20260711r" />
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper" class="divided">
+      <section class="wrapper style1 align-left shop-page shop-checkout-section">
+        <div class="inner" style="padding: 5rem 2.5rem 0 2.5rem;">
+          <div class="shop-page-head">
+            <div>
+              <h2 class="align-left">Checkout</h2>
+              <p class="subsections">Almost there. Add your details and I will prepare your handmade order with care.</p>
+            </div>
+            <a href="cart.html" class="shop-cart-link icon solid fa-shopping-bag" aria-label="Open Cart">
+              <span class="shop-cart-count">0</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="inner shop-checkout-layout">
+          <form id="checkout-form" class="shop-checkout-form shop-checkout-card">
+            <h3>Delivery Details</h3>
+            <p class="shop-summary-note">We currently ship only within the Czech Republic.</p>
+            <div class="fields">
+              <div class="field half">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required />
+              </div>
+              <div class="field half">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="field half">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required />
+              </div>
+              <div class="field">
+                <label for="street">Street + Number</label>
+                <input type="text" name="street" id="street" required />
+              </div>
+              <div class="field half">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" required />
+              </div>
+              <div class="field half">
+                <label for="zip">ZIP Code</label>
+                <input type="text" name="zip" id="zip" required />
+              </div>
+              <div class="field checkbox-field">
+                <input type="checkbox" id="privacyConsent" name="privacyConsent" required />
+                <label for="privacyConsent">I agree with <a href="privacy-policy.html">Privacy Policy</a></label>
+              </div>
+              <div class="field checkbox-field">
+                <input type="checkbox" id="termsConsent" name="termsConsent" required />
+                <label for="termsConsent">I agree with <a href="terms-and-conditions.html">Terms and Conditions</a></label>
+              </div>
+            </div>
+            <p id="checkout-error" class="shop-error" aria-live="polite"></p>
+          </form>
+
+          <aside class="shop-summary-card shop-summary-checkout">
+            <h3>Order Summary</h3>
+            <div id="checkout-items" class="shop-cart-list"></div>
+            <div class="shop-summary">
+              <p><span>Subtotal</span><strong id="summary-subtotal">0 CZK</strong></p>
+              <p><span>Shipping</span><strong id="summary-shipping">89 CZK</strong></p>
+              <p class="shop-summary-total"><span>Grand Total</span><strong id="summary-total">0 CZK</strong></p>
+              <p class="shop-summary-note">Shipping available only within the Czech Republic.</p>
+            </div>
+            <ul class="actions shop-flow-actions">
+              <li><button id="checkout-submit" form="checkout-form" type="submit" class="button primary">Place Order</button></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <footer class="wrapper style1 align-center">
+        <div class="inner">
+          <ul class="icons">
+            <li><a href="https://www.instagram.com/smirglpapir.crafts/" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="mailto:info@smirglpapir.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+          <p>&copy; SMIRGLPAPIR</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/shop-config.js?v=20260711a"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/shop.js?v=20260712j"></script>
+  </body>
+</html>

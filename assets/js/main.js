@@ -338,4 +338,48 @@
 
 						});
 
+					// Top-left home button.
+						(function() {
+
+							var current = window.location.pathname.split('/').pop() || 'index.html';
+
+							if (current === 'index.html' || current === '')
+								return;
+
+							if ($('.sp-home-link').length > 0)
+								return;
+
+							var $btn = $('<a class="sp-home-link" href="index.html" aria-label="Go to home">HOME</a>');
+
+							$('body').append($btn);
+
+						})();
+
+			// Footer links.
+				(function() {
+					var links = [
+						{ href: 'contact.html', label: 'Contact' },
+						{ href: 'privacy-policy.html', label: 'Privacy Policy' },
+						{ href: 'terms-and-conditions.html', label: 'Terms and Conditions' },
+						{ href: 'returns-and-complaints.html', label: 'Returns & Complaints' }
+					];
+
+					$('footer.wrapper .inner').each(function() {
+						var $inner = $(this);
+
+						if ($inner.find('.footer-links').length > 0)
+							return;
+
+						var html = '<ul class="footer-links">';
+
+						links.forEach(function(link) {
+							html += '<li><a href="' + link.href + '">' + link.label + '</a></li>';
+						});
+
+						html += '</ul>';
+						$inner.append(html);
+					});
+
+				})();
+
 })(jQuery);
